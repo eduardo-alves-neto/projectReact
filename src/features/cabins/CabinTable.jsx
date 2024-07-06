@@ -1,7 +1,7 @@
-import Spinner from "../../ui/Spinner";
+import Spinner from "../../ui/spinners/Spinner";
 import CabinRow from "./CabinRow";
 import { useCabins } from "./useCabins";
-import Table from "../../ui/Table";
+import Table from "../../ui/Tables/Table";
 import Menus from "../../ui/Menus";
 import { useSearchParams } from "react-router-dom";
 import Empty from "../../ui/Empty";

@@ -1,10 +1,10 @@
 import { useForm } from "react-hook-form";
 
-import Input from "../../ui/Input";
+import Input from "../../ui/inputs/Input";
 import Form from "../../ui/forms/Form";
 import Button from "../../ui/Buttons/Button";
 import FileInput from "../../ui/FileInput";
-import Textarea from "../../ui/Textarea";
+import Textarea from "../../ui/inputs/Textarea";
 import FormRow from "../../ui/forms/FormRow";
 
 import { useCreateCabin } from "./useCreateCabin";
