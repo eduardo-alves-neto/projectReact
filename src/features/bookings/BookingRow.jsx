@@ -9,7 +9,7 @@ import {
 import { useNavigate } from "react-router-dom";
 
 import Tag from "../../ui/Tag";
-import Table from "../../ui/Table";
+import Table from "../../ui/Tables/Table";
 import Modal from "../../ui/Modal";
 import Menus from "../../ui/Menus";
 import ConfirmDelete from "../../ui/ConfirmDelete";

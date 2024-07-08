@@ -4,7 +4,7 @@ import Heading from "../../ui/Heading";
 import Row from "../../ui/rows/Row";
 
 import { useTodayActivity } from "./useTodayActivity";
-import Spinner from "../../ui/Spinner";
+import Spinner from "../../ui/spinners/Spinner";
 import TodayItem from "./TodayItem";
 
 const StyledToday = styled.div`

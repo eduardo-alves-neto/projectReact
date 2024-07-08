@@ -4,19 +4,19 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Toaster } from "react-hot-toast";
 
 import GlobalStyles from "./styles/GlobalStyles";
-import Dashboard from "./pages/Dashboard";
-import Bookings from "./pages/Bookings";
-import Cabins from "./pages/Cabins";
-import Users from "./pages/Users";
-import Settings from "./pages/Settings";
-import Account from "./pages/Account";
-import Login from "./pages/Login";
-import PageNotFound from "./pages/PageNotFound";
-import AppLayout from "./ui/AppLayout";
-import Booking from "./pages/Booking";
-import Checkin from "./pages/Checkin";
+import Bookings from "./pages/bookings/Bookings";
+import Cabins from "./pages/cabins/Cabins";
+import Users from "./pages/users/Users";
+import Settings from "./pages/settings/Settings";
+import Account from "./pages/account/Account";
+import Login from "./pages/login/Login";
+import PageNotFound from "./pages/notFound/PageNotFound";
+import AppLayout from "./ui/appLayout/AppLayout";
+import Booking from "./pages/booking/Booking";
+import Checkin from "./pages/checkin/Checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
 import { DarkModeProvider } from "./context/DarkModeContext";
+import Dashboard from "./pages/dashboard/Dashboard";
 
 const queryClient = new QueryClient({
   defaultOptions: {

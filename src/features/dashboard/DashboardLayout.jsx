@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useRecentStays } from "./useRecentStays";
 import { useRecentBookings } from "./useRecentBookings";
-import Spinner from "../../ui/Spinner";
+import Spinner from "../../ui/spinners/Spinner";
 import Stats from "./Stats";
 import { useCabins } from "../cabins/useCabins";
 import SalesChart from "./SalesChart";

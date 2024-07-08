@@ -1,7 +1,7 @@
-import Form from "../../ui/Form";
-import FormRow from "../../ui/FormRow";
-import Input from "../../ui/Input";
-import Spinner from "../../ui/Spinner";
+import Form from "../../ui/forms/Form";
+import FormRow from "../../ui/forms/FormRow";
+import Input from "../../ui/inputs/Input";
+import Spinner from "../../ui/spinners/Spinner";
 import { useSettings } from "./useSettings";
 import { useUpdateSetting } from "./useUpdateSetting";
 
